@@ -18,3 +18,7 @@ function deleteTask(x){
 function clearform(){
     newTask.value="";
 }
+function save(){
+    if(localStorage.getItem(`data`)==null){ 
+    localStorage.getItem(`data`,`[]`);
+}}
